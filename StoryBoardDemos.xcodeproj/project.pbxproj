@@ -14,6 +14,9 @@
 		D49534761B54FB6C0074538F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49534751B54FB6C0074538F /* Images.xcassets */; };
 		D49534791B54FB6C0074538F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49534771B54FB6C0074538F /* LaunchScreen.xib */; };
 		D49534851B54FB6C0074538F /* StoryBoardDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49534841B54FB6C0074538F /* StoryBoardDemosTests.m */; };
+		D49534901B54FBD90074538F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D495348F1B54FBD90074538F /* SecondViewController.m */; };
+		D49534931B54FF690074538F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49534921B54FF690074538F /* ThirdViewController.m */; };
+		D49534951B5501FD0074538F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D49534941B5501FD0074538F /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		D495347E1B54FB6C0074538F /* StoryBoardDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49534831B54FB6C0074538F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49534841B54FB6C0074538F /* StoryBoardDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardDemosTests.m; sourceTree = "<group>"; };
+		D495348E1B54FBD90074538F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D495348F1B54FBD90074538F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D49534911B54FF690074538F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D49534921B54FF690074538F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D49534941B5501FD0074538F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 				D49534751B54FB6C0074538F /* Images.xcassets */,
 				D49534771B54FB6C0074538F /* LaunchScreen.xib */,
 				D49534681B54FB6C0074538F /* Supporting Files */,
+				D495348E1B54FBD90074538F /* SecondViewController.h */,
+				D495348F1B54FBD90074538F /* SecondViewController.m */,
+				D49534911B54FF690074538F /* ThirdViewController.h */,
+				D49534921B54FF690074538F /* ThirdViewController.m */,
 			);
 			path = StoryBoardDemos;
 			sourceTree = "<group>";
@@ -96,6 +108,7 @@
 		D49534681B54FB6C0074538F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D49534941B5501FD0074538F /* Settings.bundle */,
 				D49534691B54FB6C0074538F /* Info.plist */,
 				D495346A1B54FB6C0074538F /* main.m */,
 			);
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49534951B5501FD0074538F /* Settings.bundle in Resources */,
 				D49534741B54FB6C0074538F /* Main.storyboard in Resources */,
 				D49534791B54FB6C0074538F /* LaunchScreen.xib in Resources */,
 				D49534761B54FB6C0074538F /* Images.xcassets in Resources */,
@@ -219,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49534901B54FBD90074538F /* SecondViewController.m in Sources */,
+				D49534931B54FF690074538F /* ThirdViewController.m in Sources */,
 				D49534711B54FB6C0074538F /* ViewController.m in Sources */,
 				D495346E1B54FB6C0074538F /* AppDelegate.m in Sources */,
 				D495346B1B54FB6C0074538F /* main.m in Sources */,
